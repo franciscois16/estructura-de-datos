@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void print_array(int a[], int count) {
+void print_arreglo(int a[], int count) {
     for (int i = 0; i < count; i++) {
         printf("%d ", a[i]);
     }
@@ -12,7 +12,7 @@ int main() {
     int count = sizeof(myArray) / sizeof(myArray[0]); // Calculamos el número de elementos en el arreglo
 
     printf("Arreglo: ");
-    print_array(myArray, count);
+    print_arreglo(myArray, count);
 
     return 0;
 }
